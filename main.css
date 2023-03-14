@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   min-width: 300px;
 }
-
+ 
 header {
   flex: 0 80px;
 }

@@ -12,7 +12,7 @@ class Button {
     this.sound = loadSound(description.file);
     this.paint(25);
   }
-
+ 
   paint(level) {
     const background = `hsl(${this.hue}, 100%, ${level}%)`;
     this.el.style.backgroundColor = background;

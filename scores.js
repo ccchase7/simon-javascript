@@ -13,7 +13,7 @@ function loadScores() {
       const nameTdEl = document.createElement('td');
       const scoreTdEl = document.createElement('td');
       const dateTdEl = document.createElement('td');
-
+ 
       positionTdEl.textContent = i + 1;
       nameTdEl.textContent = score.name;
       scoreTdEl.textContent = score.score;
